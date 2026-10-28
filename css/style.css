@@ -112,10 +112,11 @@ nav a:hover{
     font-size: 11px;
 }
 .hero h1{
-    font-size: 32px;
+    font-size: 30px;
 }
 .hero p{
-    font-size: 14px;
+    margin-top: -10px;
+    font-size: 12px;
     color:#dbeafe;
     margin-bottom: 25px;
 }
@@ -151,4 +152,161 @@ nav a:hover{
     position: absolute;
     right: 15px;
     bottom: -40px;
+}
+.quick{
+    display: flex;
+    gap:15px
+}
+.quick a{
+    flex: 1;
+    border: 1px solid #e2e8f0;
+    padding: 18px 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px; 
+    margin-top: 27px;
+}
+.quick a:hover{
+    text-decoration: none;
+    border: 1px solid #9bb8d4;
+}
+.quick i{
+    display: block;
+    font-size: 22px;
+    background-color: #eff6ff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 10px;
+    padding-top: 7px;
+
+    font-style: normal;
+    
+}
+.quick b{
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+
+}
+.quick small{
+    display: block;
+    color:#64748b;
+    margin-top: 3px;
+    font-size: 10px;
+
+}
+.news{
+    display: flex;
+    gap: 15px;
+    margin-top: 27px;
+}
+.panel{
+    flex: 1;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 22px;
+    background-color: white;
+}
+.notice-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 15px;
+}
+.news-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 15px;
+}
+.notice-title a{ /*더보기+*/
+    color: #94a3b8;
+    font-size: 12px;
+}
+.news-title small{
+    color: #94a3b8;
+    font-size: 11px;
+}
+.notice-title h2{
+    font-size: 15px;
+}
+.news-title h2{
+    font-size: 15px;
+}
+.notice-content{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.notice-content li{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 0;
+}
+.notice-content em{
+    background-color: #fee2e2;
+    border-radius: 4px;
+    font-style: none;
+    padding: 2px 7px;
+    font-size: 9px;
+    color: #b91c1c;
+}
+.notice-content span{
+    font-size: 11px;
+    color:#64748b;
+}
+.news-content{
+    display: flex;
+    gap: 15px;
+}
+.news-content img{
+    border-radius: 7px;
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+}
+.news-content b{
+    font-size: 12px;
+    color:#2563a8
+
+}
+.news-content h3{
+    font-size: 13px;
+    margin: 5px 0;
+   
+}
+.news-content p{
+    font-size: 13px;
+    color: #64748b;
+}
+.news-content span{
+    font-size: 11px;
+    color:#64748b; 
+}
+footer{
+    background-color: #1e293b;
+    color: #94a3b8;
+    padding: 28px 0;
+    font-size: 11px;
+}
+.footerlink{
+    color: #e2e8f0;
+    border-bottom: 1px solid #475569;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.footerlink p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
 }
